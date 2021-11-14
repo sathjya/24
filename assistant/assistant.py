@@ -23,7 +23,7 @@
 import time
 from datetime import datetime
 from configparser import ConfigParser
-from pyrogram import Client, Message
+from pyrogram import Client
 from pyrogram import __version__
 from pyrogram.raw.all import layer
 from pyrogram.types import Message
@@ -33,7 +33,7 @@ class Assistant(Client):
     CREATOR_ID = 1089528685
     ASSISTANT_ID = 2142246263
     config = ConfigParser()
-    chats = []
+    chats = [-1001536437727 -1001263664495]
 
     def __init__(self):
         name = self.__class__.__name__.lower()
