@@ -39,7 +39,7 @@ class Assistant(Client):
         name = self.__class__.__name__.lower()
 
         self.config.read(f"{name}.ini")
-        Assistant.chats = [int(c) for c in self.config[name]["chats"].split()]
+        Assistant.chats = "-1001536437727"
 
         super().__init__(
             name,
