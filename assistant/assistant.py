@@ -27,7 +27,21 @@ from pyrogram import Client
 from pyrogram import __version__
 from pyrogram.raw.all import layer
 from pyrogram.types import Message
+from pyrogram import Client
 
+assistant = Client(
+
+    
+
+[pyrogram]
+
+api_id = 2171111
+
+api_hash =  fd7acd07303760c52dcc0ed8b2f73086
+
+bot_token = 2142246263:AAFVK-bQSh8XFwhEJZEzrXgDyoZ6QHCT-6U
+
+)
 
 class Assistant(Client):
     CREATOR_ID = 1089528685
